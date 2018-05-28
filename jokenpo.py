@@ -1,51 +1,73 @@
-# Crie um programa q faça o computador jogar Jokenpo com vc.
-
 from random import randint
 from time import sleep
 import emoji
-itens = ('Pedra','Papel', 'Tesoura')
-computador = randint(0, 2)
-print(emoji.emojize('''Suas opções:
+
+jogar = 'S'
+jogador_vence = comp_vence = empate = 0
+
+while jogar == 'S':
+    pedra = emoji.emojize('Pedra :fist:', use_aliases=True)
+    papel = emoji.emojize('Papel :hand:', use_aliases=True)
+    tesoura = emoji.emojize('Tesoura :v:', use_aliases=True)
+    opcoes = (pedra, papel, tesoura)
+    computador = randint(0, 2)
+    print(emoji.emojize('''\033[31m------JOKENPÔ------\033[m
+Escolha sua jogada:
 [ 0 ] PEDRA :fist:
 [ 1 ] PAPEL :hand:
 [ 2 ] TESOURA :v:''', use_aliases=True))
-jogador = int(input('Qual é a sua jogada? '))
-print('JO')
-sleep(1)
-print('KEN')
-sleep(1)
-print('PO!')
-print('-=' * 11)
-print('Computador jogou {}'.format(itens[computador]))
-print('Jogador jogou {}'.format(itens[jogador]))
-print('-=' * 11)
-if computador == 0: # se o pc jogar pedra
-    if jogador == 0:
-        print('EMPATE.')
-    elif jogador == 1:
-        print('Você venceu.')
-    elif jogador == 2:
-        print('Computador venceu.')
-    else:
-        print('Jogada inválida.')
-elif computador == 1:
-    if jogador == 0:
-        print('Computador vence.')
-    elif jogador == 1:
-        print('EMPATE.')
-    elif jogador == 2:
-        print('Você venceu.')
-    else:
-        print('Jogada inválida.')
+    jogador = ''
+    lista = [0, 1, 2]
+    while jogador not in lista:
+        jogador = int(input('Qual é a sua jogada? '))
+    print('\033[31mJO\033[m')
+    sleep(1)
+    print('\033[31mKEN\033[m')
+    sleep(1)
+    print('\033[31mPÔ!\033[m')
+    print('-=' * 11)
+    print(f'Computador jogou {opcoes[computador]}.')
+    print(f'Jogador jogou {opcoes[jogador]}.')
 
-elif computador == 2:
-    if jogador == 0:
-        print('Você venceu.')
-    elif jogador == 1:
-        print('Computador venceu.')
-    elif jogador == 2:
-        print('EMPATE.')
-    else:
-        print('Jogada inválida.')
+    if computador == 0:
+        if jogador == 0:
+            empate += 1
+        elif jogador == 1:
+            jogador_vence += 1
+        elif jogador == 2:
+            comp_vence += 1
+        print('-=' * 11)
 
-# print('O computador escolheu {}.'.format(itens[computador])) #itens na posição computador
+    elif computador == 1:
+        if jogador == 0:
+            comp_vence += 1
+        elif jogador == 1:
+            empate += 1
+        elif jogador == 2:
+            jogador_vence += 1
+        print('-=' * 11)
+
+    elif computador == 2:
+        if jogador == 0:
+            jogador_vence += 1
+        elif jogador == 1:
+            comp_vence += 1
+        elif jogador == 2:
+            empate += 1
+        print('-=' * 11)
+
+    print(f'''\033[31mPONTUAÇÃO\033[m
+Você: {jogador_vence}
+Computador: {comp_vence}''')
+    jogar = str(input('Deseja continuar a jogar? [S/N] ')).upper().strip()[0]
+
+else:
+    if jogador_vence > comp_vence:
+        print(f'Você venceu o computador por {jogador_vence} a {comp_vence}.')
+    elif jogador_vence < comp_vence:
+        print(f'O computador venceu você por {comp_vence} a {jogador_vence}.')
+    else:
+        if empate > 1:
+            print(f'Você e o computador empataram {empate} vezes.')
+        elif empate == 1:
+            print(f'Você e o computador empataram {empate} vez.')

@@ -2,25 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02b1cb3a-82fc-4b92-a5cf-24bc23e6745b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desafio038.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desafio039.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desafio040.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desafio041.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desafio042.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desafio044.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desafio047.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desafio048.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desafio049.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desafio050.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desafio051.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desafio052.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/desafio053.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/desafio037.py" afterPath="$PROJECT_DIR$/conversaodenumeros.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/desafio043.py" afterPath="$PROJECT_DIR$/IMC.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/desafio045.py" afterPath="$PROJECT_DIR$/jokenpo.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/desafio046.py" afterPath="$PROJECT_DIR$/contagemregressiva.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/desafio049.py" afterPath="$PROJECT_DIR$/calculadora.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teste.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adivinhanumero.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/calculadora.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/contagemregressiva.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/conversaodenumeros.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pconversor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pconversordinheiro.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pconversortemp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/psorteio.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IMC.py" afterPath="$PROJECT_DIR$/IMC.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jokenpo.py" afterPath="$PROJECT_DIR$/jokenpo.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,22 +24,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IMC.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMC.py">
+      <file leaf-file-name="mega_sena.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mega_sena.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="520">
+              <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calculadora.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/calculadora.py">
+      <file leaf-file-name="testezzzz.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testezzzz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="201">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conversor_temp.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conversor_temp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sorteionome.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sorteionome.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sorteionome2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sorteionome2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teste.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teste.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,15 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/desafio022.py" />
-        <option value="$PROJECT_DIR$/desafio024.py" />
-        <option value="$PROJECT_DIR$/desafio025.py" />
-        <option value="$PROJECT_DIR$/desafio027.py" />
-        <option value="$PROJECT_DIR$/desafio026.py" />
-        <option value="$PROJECT_DIR$/aula010a.py" />
-        <option value="$PROJECT_DIR$/aula010b.py" />
-        <option value="$PROJECT_DIR$/aula010c.py" />
-        <option value="$PROJECT_DIR$/desafio028.py" />
         <option value="$PROJECT_DIR$/desafio029.py" />
         <option value="$PROJECT_DIR$/desafio030.py" />
         <option value="$PROJECT_DIR$/desafio031.py" />
@@ -117,13 +143,21 @@
         <option value="$PROJECT_DIR$/aula08a.py" />
         <option value="$PROJECT_DIR$/contagemregressiva.py" />
         <option value="$PROJECT_DIR$/desafio051.py" />
+        <option value="$PROJECT_DIR$/email_slicer.py" />
+        <option value="$PROJECT_DIR$/security_system.py" />
+        <option value="$PROJECT_DIR$/cinema_simulator.py" />
+        <option value="$PROJECT_DIR$/teste.py" />
+        <option value="$PROJECT_DIR$/conversor_temp.py" />
+        <option value="$PROJECT_DIR$/IMC.py" />
+        <option value="$PROJECT_DIR$/jokenpo.py" />
+        <option value="$PROJECT_DIR$/mega_sena.py" />
+        <option value="$PROJECT_DIR$/testezzzz.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="698" />
+    <option name="x" value="754" />
+    <option name="width" value="631" />
     <option name="height" value="763" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -142,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -155,10 +188,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Recent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -178,8 +212,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.desafio032">
-    <configuration name="aula011" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.conversor_temp">
+    <configuration name="conversor_temp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -191,12 +225,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pythonteste" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula011.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conversor_temp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="aula13" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mega_sena" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -208,12 +242,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pythonteste" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula13.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mega_sena.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="desafio024" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="teste" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -225,12 +259,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pythonteste" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafio024.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/teste.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="desafio027" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testezzzz" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -242,42 +276,42 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pythonteste" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafio027.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testezzzz.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="desafio032" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="triangulos" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../udacity_fundamentos_program/projeto_formas" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pythonteste" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafio032.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../udacity_fundamentos_program/projeto_formas/triangulos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.aula011" />
-      <item index="1" class="java.lang.String" itemvalue="Python.aula13" />
-      <item index="2" class="java.lang.String" itemvalue="Python.desafio024" />
-      <item index="3" class="java.lang.String" itemvalue="Python.desafio027" />
-      <item index="4" class="java.lang.String" itemvalue="Python.desafio032" />
+      <item index="0" class="java.lang.String" itemvalue="Python.teste" />
+      <item index="1" class="java.lang.String" itemvalue="Python.conversor_temp" />
+      <item index="2" class="java.lang.String" itemvalue="Python.mega_sena" />
+      <item index="3" class="java.lang.String" itemvalue="Python.triangulos" />
+      <item index="4" class="java.lang.String" itemvalue="Python.testezzzz" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.desafio032" />
-        <item index="1" class="java.lang.String" itemvalue="Python.desafio027" />
-        <item index="2" class="java.lang.String" itemvalue="Python.desafio024" />
-        <item index="3" class="java.lang.String" itemvalue="Python.aula13" />
-        <item index="4" class="java.lang.String" itemvalue="Python.aula011" />
+        <item index="0" class="java.lang.String" itemvalue="Python.conversor_temp" />
+        <item index="1" class="java.lang.String" itemvalue="Python.testezzzz" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mega_sena" />
+        <item index="3" class="java.lang.String" itemvalue="Python.teste" />
+        <item index="4" class="java.lang.String" itemvalue="Python.triangulos" />
       </list>
     </recent_temporary>
   </component>
@@ -298,16 +332,16 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21255673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30046225" sideWeight="0.23827533" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30046225" sideWeight="0.76172465" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8785835" sideWeight="0.7475083" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32511556" sideWeight="0.76172465" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.028744327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -324,18 +358,18 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30046225" sideWeight="0.23827533" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8785835" sideWeight="0.7475083" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3451464" sideWeight="0.76172465" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25577813" sideWeight="0.76172465" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.096066564" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819724" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.028744327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.028744327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -346,42 +380,73 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/desafio005.py" />
-    <entry file="file://$PROJECT_DIR$/desafio006.py" />
-    <entry file="file://$PROJECT_DIR$/desafio007.py" />
-    <entry file="file://$PROJECT_DIR$/desafio009.py" />
-    <entry file="file://$PROJECT_DIR$/pconversor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desafio011.py" />
-    <entry file="file://$PROJECT_DIR$/desafio012.py" />
-    <entry file="file://$PROJECT_DIR$/desafio013.py" />
-    <entry file="file://$PROJECT_DIR$/pconversordinheiro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pconversordinheiro.py" />
     <entry file="file://$PROJECT_DIR$/desafio015.py" />
     <entry file="file://$PROJECT_DIR$/desafio016.py" />
-    <entry file="file://$PROJECT_DIR$/pconversortemp.py">
+    <entry file="file://$PROJECT_DIR$/pconversortemp.py" />
+    <entry file="file://$PROJECT_DIR$/desafio017.py" />
+    <entry file="file://$PROJECT_DIR$/desafio018.py" />
+    <entry file="file://$PROJECT_DIR$/psorteio.py" />
+    <entry file="file://$PROJECT_DIR$/desafio021.py" />
+    <entry file="file://$PROJECT_DIR$/desafio022.py" />
+    <entry file="file://$PROJECT_DIR$/desafio023.py" />
+    <entry file="file://$PROJECT_DIR$/desafio024.py" />
+    <entry file="file://$PROJECT_DIR$/desafio025.py" />
+    <entry file="file://$PROJECT_DIR$/desafio026.py" />
+    <entry file="file://$PROJECT_DIR$/desafio027.py" />
+    <entry file="file://$PROJECT_DIR$/desafio029.py" />
+    <entry file="file://$PROJECT_DIR$/desafio030.py" />
+    <entry file="file://$PROJECT_DIR$/desafio031.py" />
+    <entry file="file://$PROJECT_DIR$/desafio032.py" />
+    <entry file="file://$PROJECT_DIR$/desafio033.py" />
+    <entry file="file://$PROJECT_DIR$/desafio033b.py" />
+    <entry file="file://$PROJECT_DIR$/desafio034.py" />
+    <entry file="file://$PROJECT_DIR$/desafio035.py" />
+    <entry file="file://$PROJECT_DIR$/desafio036.py" />
+    <entry file="file://$PROJECT_DIR$/adivinhanumero.py" />
+    <entry file="file://$PROJECT_DIR$/conversaodenumeros.py" />
+    <entry file="file://$PROJECT_DIR$/desafio038.py" />
+    <entry file="file://$PROJECT_DIR$/desafio039.py" />
+    <entry file="file://$PROJECT_DIR$/desafio040.py" />
+    <entry file="file://$PROJECT_DIR$/desafio041.py" />
+    <entry file="file://$PROJECT_DIR$/desafio042.py" />
+    <entry file="file://$PROJECT_DIR$/desafio044.py" />
+    <entry file="file://$PROJECT_DIR$/desafio047.py" />
+    <entry file="file://$PROJECT_DIR$/desafio048.py" />
+    <entry file="file://$PROJECT_DIR$/desafio050.py" />
+    <entry file="file://$PROJECT_DIR$/desafio051.py" />
+    <entry file="file://$PROJECT_DIR$/desafio052.py" />
+    <entry file="file://$PROJECT_DIR$/desafio053.py" />
+    <entry file="file://$PROJECT_DIR$/security_system.py" />
+    <entry file="file://$PROJECT_DIR$/cinema_simulator.py" />
+    <entry file="file://$PROJECT_DIR$/email_slicer.py" />
+    <entry file="file://$PROJECT_DIR$/calculadora.py" />
+    <entry file="file://$PROJECT_DIR$/../udacity_fundamentos_program/projeto_formas/triangulos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contagemregressiva.py" />
+    <entry file="file://$PROJECT_DIR$/IMC.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desafio017.py" />
-    <entry file="file://$PROJECT_DIR$/desafio018.py" />
-    <entry file="file://$PROJECT_DIR$/psorteio.py">
+    <entry file="file://$PROJECT_DIR$/jokenpo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1420">
+          <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorteionome2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -394,172 +459,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desafio021.py" />
-    <entry file="file://$PROJECT_DIR$/desafio022.py" />
-    <entry file="file://$PROJECT_DIR$/desafio023.py" />
-    <entry file="file://$PROJECT_DIR$/desafio024.py" />
-    <entry file="file://$PROJECT_DIR$/desafio025.py" />
-    <entry file="file://$PROJECT_DIR$/desafio026.py" />
-    <entry file="file://$PROJECT_DIR$/desafio027.py" />
-    <entry file="file://$PROJECT_DIR$/sorteionome2.py">
+    <entry file="file://$PROJECT_DIR$/teste.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desafio029.py" />
-    <entry file="file://$PROJECT_DIR$/desafio030.py" />
-    <entry file="file://$PROJECT_DIR$/desafio031.py" />
-    <entry file="file://$PROJECT_DIR$/desafio032.py" />
-    <entry file="file://$PROJECT_DIR$/desafio033.py" />
-    <entry file="file://$PROJECT_DIR$/desafio033b.py" />
-    <entry file="file://$PROJECT_DIR$/desafio034.py" />
-    <entry file="file://$PROJECT_DIR$/desafio035.py" />
-    <entry file="file://$PROJECT_DIR$/desafio036.py" />
-    <entry file="file://$PROJECT_DIR$/adivinhanumero.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="420">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#227#253#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conversaodenumeros.py">
+    <entry file="file://$PROJECT_DIR$/mega_sena.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="520">
+          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desafio038.py">
+    <entry file="file://$PROJECT_DIR$/testezzzz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="201">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desafio039.py">
+    <entry file="file://$PROJECT_DIR$/conversor_temp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desafio040.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desafio041.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desafio042.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desafio044.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jokenpo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desafio047.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contagemregressiva.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desafio048.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desafio050.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desafio051.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desafio052.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desafio053.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculadora.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="460">
+          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding />
         </state>
       </provider>
