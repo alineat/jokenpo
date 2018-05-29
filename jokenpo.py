@@ -59,7 +59,8 @@ Escolha sua jogada:
     print(f'''\033[31mPONTUAÇÃO\033[m
 Você: {jogador_vence}
 Computador: {comp_vence}''')
-    jogar = str(input('Deseja continuar a jogar? [S/N] ')).upper().strip()[0]
+    jogar = str(input('Deseja continuar a jogar? '
+                      '[S/N] ')).upper().strip()[0]
 
 else:
     if jogador_vence > comp_vence:

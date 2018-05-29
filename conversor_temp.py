@@ -1,6 +1,6 @@
-print('-'*10, 'CONVERSOR DE TEMPERATURA', '-'*10)
-print('\nConverta as medidas das principais temperaturas automaticamente:\nCelsius (ºC), Fahrenheit (ºF) e '
-      'Kelvin (K).\n')
+print('-'*10, 'Conversor de Temperatura', '-'*10)
+print('\nConverta as medidas das principais temperaturas automaticamente:'
+      '\nCelsius (ºC), Fahrenheit (ºF) e Kelvin (K).\n')
 
 unidade = conversao = ' '
 while unidade and conversao not in 'ckf':
