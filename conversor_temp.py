@@ -4,7 +4,7 @@ print('\nConverta as medidas das principais temperaturas automaticamente:'
 
 unidade = conversao = ' '
 while unidade and conversao not in 'ckf':
-    medida = float(input('Digite o número a ser convertido: '))
+    medida = float(input('Digite o númer a ser convertido: '))
     unidade = str(input('Digite a unidade de medida da temperatura a ser convertida '
                         '[\033[31mC\033[m/\033[31mF\033[m/\033[31mK\033[m]: ')).strip().lower()
     conversao = str(input('Digite a unidade de medida para a qual você quer '
