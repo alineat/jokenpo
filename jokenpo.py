@@ -6,7 +6,7 @@ jogar = 'S'
 jogador_vence = comp_vence = empate = 0
 
 while jogar == 'S':
-    pedra = emoji.emojize('Pedra :fist:', use_aliases=True)
+    pedra = emoji.emojize('Pedraa :fist:', use_aliases=True)
     papel = emoji.emojize('Papel :hand:', use_aliases=True)
     tesoura = emoji.emojize('Tesoura :v:', use_aliases=True)
     opcoes = (pedra, papel, tesoura)

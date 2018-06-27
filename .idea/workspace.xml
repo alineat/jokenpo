@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02b1cb3a-82fc-4b92-a5cf-24bc23e6745b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/conversor_temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/conversor_temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jokenpo.py" beforeDir="false" afterPath="$PROJECT_DIR$/jokenpo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,17 +25,26 @@
       <file leaf-file-name="mega_sena.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mega_sena.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
+            <state relative-caret-position="884">
               <caret line="52" column="73" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conversor_temp.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="conversor_temp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conversor_temp.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jokenpo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jokenpo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -121,9 +130,9 @@
         <option value="$PROJECT_DIR$/teste.py" />
         <option value="$PROJECT_DIR$/testezzzz.py" />
         <option value="$PROJECT_DIR$/IMC.py" />
-        <option value="$PROJECT_DIR$/jokenpo.py" />
         <option value="$PROJECT_DIR$/mega_sena.py" />
         <option value="$PROJECT_DIR$/conversor_temp.py" />
+        <option value="$PROJECT_DIR$/jokenpo.py" />
       </list>
     </option>
   </component>
@@ -318,23 +327,23 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.76172465" visible="true" weight="0.25577813" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.25340393" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.76172465" visible="true" weight="0.25577813" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" weight="0.028744327" />
       <window_info id="Structure" order="1" weight="0.24962178" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="right" id="Data View" order="3" weight="0.028744327" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.7475083" weight="0.8785835" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32819724" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.23827533" side_tool="true" weight="0.30046225" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.7475083" weight="0.8785835" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -407,16 +416,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IMC.py" />
-    <entry file="file://$PROJECT_DIR$/jokenpo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mega_sena.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
+        <state relative-caret-position="884">
           <caret line="52" column="73" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
         </state>
       </provider>
@@ -425,6 +427,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jokenpo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
