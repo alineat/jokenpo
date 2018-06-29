@@ -6,7 +6,7 @@ jogar = 'S'
 jogador_vence = comp_vence = empate = 0
 
 while jogar == 'S':
-    pedra = emoji.emojize('Pedraa :fist:', use_aliases=True)
+    pedra = emoji.emojize('Pedra :fist:', use_aliases=True)
     papel = emoji.emojize('Papel :hand:', use_aliases=True)
     tesoura = emoji.emojize('Tesoura :v:', use_aliases=True)
     opcoes = (pedra, papel, tesoura)
@@ -21,9 +21,9 @@ Escolha sua jogada:
     while jogador not in lista:
         jogador = int(input('Qual é a sua jogada? '))
     print('\033[31mJO\033[m')
-    sleep(1)
+    sleep(.3)
     print('\033[31mKEN\033[m')
-    sleep(1)
+    sleep(.3)
     print('\033[31mPÔ!\033[m')
     print('-=' * 11)
     print(f'Computador jogou {opcoes[computador]}.')
