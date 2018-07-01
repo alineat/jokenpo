@@ -25,7 +25,7 @@ Escolha sua jogada:
     print('\033[31mKEN\033[m')
     sleep(.3)
     print('\033[31mPÔ!\033[m')
-    print('-=' * 11)
+    print('-=' * 15)
     print(f'Computador jogou {opcoes[computador]}.')
     print(f'Jogador jogou {opcoes[jogador]}.')
 
@@ -36,7 +36,7 @@ Escolha sua jogada:
             jogador_vence += 1
         elif jogador == 2:
             comp_vence += 1
-        print('-=' * 11)
+        print('-=' * 15)
 
     elif computador == 1:
         if jogador == 0:
@@ -45,7 +45,7 @@ Escolha sua jogada:
             empate += 1
         elif jogador == 2:
             jogador_vence += 1
-        print('-=' * 11)
+        print('-=' * 15)
 
     elif computador == 2:
         if jogador == 0:
@@ -54,11 +54,11 @@ Escolha sua jogada:
             comp_vence += 1
         elif jogador == 2:
             empate += 1
-        print('-=' * 11)
+        print('-=' * 15)
 
-    print(f'''\033[31mPONTUAÇÃO\033[m
-Você: {jogador_vence}
-Computador: {comp_vence}''')
+    print(emoji.emojize(f'''\033[31mPONTUAÇÃO\033[m
+Você :smiley: : {jogador_vence}
+Computador :computer: : {comp_vence}''', use_aliases=True))
     jogar = str(input('Deseja continuar a jogar? '
                       '[S/N] ')).upper().strip()[0]
 
@@ -67,8 +67,5 @@ else:
         print(f'Você venceu o computador por {jogador_vence} a {comp_vence}.')
     elif jogador_vence < comp_vence:
         print(f'O computador venceu você por {comp_vence} a {jogador_vence}.')
-    else:
-        if empate > 1:
-            print(f'Você e o computador empataram {empate} vezes.')
-        elif empate == 1:
-            print(f'Você e o computador empataram {empate} vez.')
+    elif jogador_vence == comp_vence:
+        print(f'Empate.')
