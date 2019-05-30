@@ -1,33 +1,33 @@
 from random import randint
 from time import sleep
-import emoji
+from emoji import emojize
 
 jogar = 'S'
 jogador_vence = comp_vence = empate = 0
 
 while jogar == 'S':
-    pedra = emoji.emojize('Pedra :fist:', use_aliases=True)
-    papel = emoji.emojize('Papel :hand:', use_aliases=True)
-    tesoura = emoji.emojize('Tesoura :v:', use_aliases=True)
+    pedra = emojize('Pedra :fist:', use_aliases=True)
+    papel = emojize('Papel :hand:', use_aliases=True)
+    tesoura = emojize('Tesoura :v:', use_aliases=True)
     opcoes = (pedra, papel, tesoura)
     computador = randint(0, 2)
-    print(emoji.emojize('''\033[31m------JOKENPÔ------\033[m
+    print(emojize('''\033[31m------JOKENPÔ------\033[m
 Escolha sua jogada:
 [ 0 ] PEDRA :fist:
 [ 1 ] PAPEL :hand:
 [ 2 ] TESOURA :v:''', use_aliases=True))
     jogador = ''
     lista = [0, 1, 2]
+    jogador = int(input('Qual é a sua jogada? '))
     while jogador not in lista:
-        jogador = int(input('Qual é a sua jogada? '))
+        jogador = int(input('Digite um valor válido [0, 1 ou 2]. Qual é a sua jogada? '))
     print('\033[31mJO\033[m')
     sleep(.3)
     print('\033[31mKEN\033[m')
     sleep(.3)
     print('\033[31mPÔ!\033[m')
-    print('-=' * 15)
-    print(f'Computador jogou {opcoes[computador]}.')
-    print(f'Jogador jogou {opcoes[jogador]}.')
+    print(f'\nComputador jogou {opcoes[computador]}.')
+    print(f'Jogador jogou {opcoes[jogador]}.\n')
 
     if computador == 0:
         if jogador == 0:
@@ -36,7 +36,6 @@ Escolha sua jogada:
             jogador_vence += 1
         elif jogador == 2:
             comp_vence += 1
-        print('-=' * 15)
 
     elif computador == 1:
         if jogador == 0:
@@ -45,7 +44,6 @@ Escolha sua jogada:
             empate += 1
         elif jogador == 2:
             jogador_vence += 1
-        print('-=' * 15)
 
     elif computador == 2:
         if jogador == 0:
@@ -54,18 +52,19 @@ Escolha sua jogada:
             comp_vence += 1
         elif jogador == 2:
             empate += 1
-        print('-=' * 15)
 
-    print(emoji.emojize(f'''\033[31mPONTUAÇÃO\033[m
+    print(emojize(f'''\033[31mPONTUAÇÃO\033[m
 Você :smiley: : {jogador_vence}
 Computador :computer: : {comp_vence}''', use_aliases=True))
-    jogar = str(input('Deseja continuar a jogar? '
+    jogar = str(input('\nDeseja continuar a jogar? '
                       '[S/N] ')).upper().strip()[0]
+    while jogar not in 'SN':
+        jogar = str(input('Digite um dado válido. Deseja continuar a jogar? [S/N] ')).upper().strip()[0]
 
 else:
     if jogador_vence > comp_vence:
-        print(f'Você venceu o computador por {jogador_vence} a {comp_vence}.')
+        print(f'\nVocê venceu o computador por {jogador_vence} a {comp_vence}.')
     elif jogador_vence < comp_vence:
-        print(f'O computador venceu você por {comp_vence} a {jogador_vence}.')
+        print(f'\nO computador venceu você por {comp_vence} a {jogador_vence}.')
     elif jogador_vence == comp_vence:
-        print(f'Empate.')
+        print(f'\nEmpate.')
