@@ -18,7 +18,7 @@ Escolha sua jogada:
 [ 2 ] TESOURA :v:''', use_aliases=True))
     jogador = ''
     lista = [0, 1, 2]
-    jogador = int(input('Qual é a sua jogada? '))
+    jogador = int(input('Sua jogada? '))
     while jogador not in lista:
         jogador = int(input('Digite um valor válido [0, 1 ou 2]. Qual é a sua jogada? '))
     print('\033[31mJO\033[m')
